@@ -18,8 +18,9 @@ export class ListPageComponent implements OnInit{
   ngOnInit(): void {
 
     this.heroesService.getHeroes().subscribe(
-      heroes => this.heroes = heroes
+      heroes => { this.heroes = heroes; console.log(heroes)}
       );
+
     // throw new Error('Method not implemented.');
   }
 }
