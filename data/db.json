@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -153,7 +153,7 @@
       "alt_img": "https://image.tmdb.org/t/p/w500/41EWXLXTZO4MLb2BL28mWZuydyq.jpg"
     },
     {
-      "id": null,
+      "id": "tomjerry",
       "superhero": "TomYJerry",
       "publisher": "DC Comics",
       "alter_ego": "Tom&Jerry",
