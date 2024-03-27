@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AuthModule } from './auth/auth.module';
-import { HeroesModule } from './heroes/heroes.module';
 import { Error404PageComponent } from './shared/pages/error404-page/error404-page.component';
 
+// dominio.com/
 const routes: Routes = [
   {
     path: 'auth',
@@ -15,7 +14,7 @@ const routes: Routes = [
   },
   {
     path: '404',
-    component: Error404PageComponent
+    component: Error404PageComponent,
   },
   {
     path: '',
@@ -25,8 +24,7 @@ const routes: Routes = [
   {
     path: '**',
     redirectTo: '404',
-  },
-
+  }
 ];
 
 @NgModule({
